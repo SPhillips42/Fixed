@@ -1,4 +1,4 @@
-<app-menu></app-menu>
+
 <div>
   <div class="heading">
     <span class="pageTitle">User List</span>
@@ -18,7 +18,7 @@
           <td>{{student.lastname}}</td>
           <td>{{student.sat}}</td>
           <td>{{student.gpa}}</td>
-          <td class="bool">{{student.instate | booldisp}}</td>
+          <td class="bool">{{student.instate}}</td>
           <td><a routerLink="/user/detail/{{student.id}}">Detail</a> | 
               <a routerLink="/user/edit/{{student.id}}">Edit</a></td>
       </tr>
