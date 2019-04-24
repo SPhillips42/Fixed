@@ -7,10 +7,10 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
 
   {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: 'students/list', component: EducationListComponent},
-  {path: 'students/create', component: EducationCreateComponent},
-  {path: 'students/edit/:id', component: EducationEditComponent},
-  {path: 'students/detail/:id', component: EducationDetailComponent},
+  {path: 'user/list', component: EducationListComponent},
+  {path: 'user/create', component: EducationCreateComponent},
+  {path: 'user/edit/:id', component: EducationEditComponent},
+  {path: 'user/detail/:id', component: EducationDetailComponent},
   {path: '**', component: EducationListComponent},
   ];
   @NgModule({

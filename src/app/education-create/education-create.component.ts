@@ -16,7 +16,7 @@ export class EducationCreateComponent implements OnInit {
     this.edusvc.create(this.student)
     .subscribe(resp => {
       console.log(resp);
-      this.router.navigateByUrl('/sudents/list')
+      this.router.navigateByUrl('/user/list')
     },
     err => {
       console.log("User Update Error", err);

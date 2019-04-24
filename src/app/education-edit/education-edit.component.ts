@@ -17,7 +17,7 @@ export class EducationEditComponent implements OnInit {
     .subscribe(
       respond => { //success
         console.log("User Update Successful!: ", respond);
-        this.router.navigateByUrl('/students/list');
+        this.router.navigateByUrl('/user/list');
       },
       err =>{ //error
         console.error("User Update Error: ", err);

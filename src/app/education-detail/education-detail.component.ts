@@ -17,7 +17,7 @@ this.edusvc.remove(this.student)
 .subscribe(
   respond => {
     console.log("Student Delete Successful!", respond)
-    this.router.navigateByUrl(`/students/list`);
+    this.router.navigateByUrl(`/user/list`);
   },
   err => {
     console.log("Student Delete Failed!", err)
